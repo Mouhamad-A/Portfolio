@@ -1,0 +1,351 @@
+/*Import pour obtenir la police de texte Cormorant*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body,html{
+    height: 100%;
+    background: #525252; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #525252, #3d72b4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #525252, #3d72b4);
+
+    color: white;
+}
+
+.header{
+    height:80px;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: end;
+ 
+}
+
+.navbar{
+    width: 100%;
+    max-width: 1120px;
+    display:flex;
+    justify-content:space-between ;
+
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 4px 8px;
+    -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.Logo-text{
+font-family: "Cormorant Garamond",sans-serif;
+
+font-size: 40px;
+
+}
+
+.Menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 24px;
+   width: 23%;
+  
+
+}
+
+.Menu-p{
+    font-family: "Cormorant Garamond",sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    padding: 0 14px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.Menu-p:hover{
+    background-color:rgba(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+
+}
+
+
+.accueil{
+    width: 100%;
+    height: 790px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    margin-top: 250px;
+    
+  
+}
+
+
+.title-h1{
+    font-family: "Poppins",sans-serif;
+    font-size: 200px;
+    -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.title-p{
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+    font-weight: 50;
+    text-align: center;
+    -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.main_Compétence{
+    width: 100%;
+    height: 600px;
+    max-height: 1120px;
+
+   
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between ;
+}
+
+
+.Compétence-title{
+    
+    text-align: center;
+}
+.Compétence-title-p{
+    font-family: "Poppins",sans-serif;
+    font-size: 60px;
+    border:2px solid rgb(255, 255, 255);
+    
+}
+.Compétence-icon{
+margin-top: 70px;
+display: flex;
+align-items: end;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+padding-bottom: 30px;
+border-bottom:1px solid white;
+
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space;
+    border-top:1px solid white;
+  margin-top: 1000px;
+    
+}
+.footer-contact{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.footer-text-p{
+    font-family: "Cormorant Garamond",sans-serif;
+    font-size: 80px;
+    font-weight: 1000;
+    font-family: "Poppins",sans-serif;
+  
+}
+.icon{
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+    background-color: white;
+}
+
+.icon_socials{
+    width: 80px;
+    height: auto;
+
+}
+
+
+.Formation{
+  text-align: center;
+  height: 200px;
+
+}
+
+.Formation-title{
+  font-family: "Poppins",sans-serif;
+  font-size: 60px;
+  border:2px solid rgb(255, 255, 255);
+
+}
+
+
+.Formation-description{
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+gap: 14px;
+font-family: "Poppins",sans-serif;
+
+}
+
+.Annee{
+color: antiquewhite;
+font-size: 60px;
+
+}
+.Formation-p{
+  font-size: 40px;
+}
+
+.Certification{
+  margin-top: 280px;
+  height: 550px;
+}
+
+
+.certification-img-ccna{
+  width: 140px;
+  height:auto;
+}
+
+.Certification-title{
+  font-family: "Poppins",sans-serif;
+  font-size: 60px;
+  border:2px solid rgb(255, 255, 255);
+
+}
+
+.Certification-img1{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.Certification-img{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 10px 10px;
+  gap: 20px;
+ 
+}
+
+.Certification-img2 {
+  display: flex;
+  align-items: center;
+ gap: 20px;
+  
+}
+
+.Certification-p{
+  font-size: 50px;
+  font-family: "Poppins",sans-serif;
+}
+
+
+.footer-contact-p{
+font-size: 20px;
+
+}
+.mail{
+  font-size: 40px;
+}
+@-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+
+
